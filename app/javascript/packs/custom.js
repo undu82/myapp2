@@ -5,3 +5,5 @@ $(function() {
 $(function() {
   $('[data-toggle="popover"]').popover();
 });
+
+import "./jquery.flexslider-min";

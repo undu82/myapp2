@@ -6,12 +6,12 @@
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800);
 @import 'https://fonts.googleapis.com/css?family=Raleway:500,600,700,800';
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i");
-@font-face {
-  /*font-family: "Ionicons";
+/*@font-face {
+  font-family: "Ionicons";
   src: url("../icons/fonts/ionicons.eot?v=2.0.0");
   src: url("../icons/fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../icons/fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("../icons/fonts/ionicons.woff?v=2.0.0") format("woff"), url("../icons/fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg");
   font-weight: normal;
-  font-style: normal; }*/
+  font-style: normal; }
 
 /* Basic Styles
 ================================================== */
@@ -106,6 +106,8 @@ iframe, fieldset {
 /*==================== ========*/
 /*========= Forms =========*/
 /*============================*/
+
+
 .form-box {
   padding: 15px;
   background: #fff;
@@ -176,6 +178,7 @@ input[type="color"]:focus,
 
 /* Typography
 ================================================== */
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-family: "Raleway", sans-serif; }
@@ -223,6 +226,7 @@ small {
 /***icheck css**/
 /* iCheck plugin Square skin, green
 ----------------------------------- */
+
 .icheckbox_square-gray,
 .iradio_square-gray {
   display: inline-block;
@@ -269,10 +273,11 @@ small {
   background-position: -216px 0; }
 
 /* HiDPI support */
+
 @media (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
   .icheckbox_square-gray,
   .iradio_square-gray {
-    /*background-image: url(../img/grey@2x.png);*/
+/*    background-image: url(../img/grey@2x.png);*/
     -webkit-background-size: 240px 24px;
     background-size: 240px 24px; } }
 
@@ -899,9 +904,9 @@ MULTI LEVEL DROPDOWN CSS
 /*
 Accordoins style
 */
-/*
+
 Accordoins card style
-*/
+*//*
 .accordion-header {
   position: relative; }
 
@@ -1034,7 +1039,7 @@ Accordoins card style
     font-weight: 400;
     font-size: 14px; }
 
-/**************footer option ********************/
+/**************footer option ********************//*
 #footer-option {
   background: #121214;
   border-top: 8px solid #4c779e;
@@ -1088,7 +1093,7 @@ Accordoins card style
       color: #4c779e; }
 
 /*****************bootstrap tabs overrides*****************************/
-/*tabs*/
+/*tabs*//*
 .tabs .nav-tabs {
   border-bottom: none; }
 
@@ -1167,7 +1172,7 @@ Accordoins card style
 .tabs .tab-content p:last-child {
   margin-bottom: 0; }
 
-/*************************************buttons for bizwrap theme********************************/
+/*************************************buttons for bizwrap theme********************************//*
 .btn {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -1191,7 +1196,7 @@ Accordoins card style
   .btn:hover, .btn:focus {
     outline: none; }
 
-/*button white for colored background*/
+/*button white for colored background*//*
 .btn-white {
   background-color: transparent;
   color: #fff;
@@ -1213,7 +1218,7 @@ Accordoins card style
 .btn-big {
   padding: 14px 25px; }
 
-/*button default*/
+/*button default*//*
 .theme-btn-default {
   background-color: #fff;
   border: 1px solid #eee;
@@ -1223,7 +1228,7 @@ Accordoins card style
     background-color: #000;
     border-color: #000; }
 
-/*theme color button*/
+/*theme color button*//*
 .theme-btn-color {
   background-color: #4c779e;
   border-color: #4c779e;
@@ -1253,7 +1258,7 @@ Accordoins card style
 .btn-sweet-alert {
   margin: 5px; }
 
-/***btn radius***/
+/***btn radius***//*
 .btn-radius {
   padding: 12px 50px;
   -webkit-border-radius: 100px;
@@ -1264,7 +1269,7 @@ Accordoins card style
 .buttons button {
   margin-bottom: 10px; }
 
-/*****************************sidebar css****************************/
+/*****************************sidebar css****************************//*
 .sidebar-box {
   margin-bottom: 30px; }
   .sidebar-box h4 {
@@ -1322,7 +1327,7 @@ Accordoins card style
     font-weight: 600;
     text-transform: uppercase; }
 
-/******************pricing************************/
+/******************pricing************************//*
 .pricing-wrapper {
   border: 1px solid #eee; }
 
@@ -1367,7 +1372,7 @@ Accordoins card style
     font-size: 20px; }
 
 /************************news and blog sec*****************************/
-/*latest news*/
+/*latest news*//*
 .news-sec {
   border: 1px solid #eee;
   color: #000;
@@ -1407,7 +1412,7 @@ Accordoins card style
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/*blog page*/
+/*blog page*//*
 .blog-post-section {
   border: 1px solid #eee;
   padding: 15px 10px; }
@@ -1548,8 +1553,8 @@ h4.portfolio-post-title {
   background-color: rgba(76, 119, 158, 0.7); }
 
 /*
-    SHOP STYLE START HERE
-*/
+    SHOP STYLE START HERE/*
+*//*
 .product_item {
   display: block;
   margin: 0 auto;
@@ -1943,7 +1948,7 @@ label.error {
       display: block;
       margin-top: 10px; }
 
-/*all shop template css here*/
+/*all shop template css here*//*
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -1952,7 +1957,7 @@ label.error {
   align-content: flex-start;
   align-items: flex-start; }
 
-/*pager**/
+/*pager**//*
 .pager li > a {
   color: #4c779e; }
 
@@ -1991,7 +1996,7 @@ label.error {
     background-color: #4c779e;
     color: #fff; }
 
-/*services option 2*/
+/*services option 2*//*
 .services-icon {
   text-align: center; }
 
@@ -2013,7 +2018,7 @@ label.error {
   color: #000;
   margin-bottom: 15px; }
 
-/***services box new v1.4****/
+/***services box new v1.4****//*
 .services-boxv2 {
   margin: 0; }
   .services-boxv2 .servicev2-icon {
@@ -2030,7 +2035,7 @@ label.error {
       text-transform: uppercase;
       font-size: 18px; }
 
-/*features*/
+/*features*//*
 .features h3 {
   font-weight: 700;
   color: #000;
@@ -2075,8 +2080,8 @@ label.error {
   background-attachment: fixed;
   margin-bottom: 0px; }
 
-.page-tree-bg2 {
-  /*background-image: url("../assets/img/bread-bg.png"); }*/
+/*.page-tree-bg2 {
+  background-image: url("../assets/img/bread-bg.png"); }*/
 
 h3.page-tree-text {
   text-align: center;
@@ -2398,7 +2403,7 @@ a.carousel-control i {
 
 /*.direc-hover-box:hover .direc-overlay{
     display: block;
-}*/
+}*//*
 @media (min-width: 1200px) {
   .boxed-wrapper {
     margin: 0 auto;
@@ -2410,7 +2415,7 @@ a.carousel-control i {
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
     border-top: 4px solid #4c779e; }
   body.boxed {
-    backg/*round: url("../img/bread-bg.png") repeat; } }*/
+    background: url("../img/bread-bg.png") repeat; } }
 
 .boxed-wrapper .navbar-light.sticky {
   left: 0;
