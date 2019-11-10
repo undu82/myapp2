@@ -1,0 +1,29 @@
+.intellcob{
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center!important;
+  align-items: center!important;
+  transition-property: background,padding,margin,border,transform,box-shadow,opacity,color,fill,font,border-radius,max-height,max-width,filter,-webkit-transform,-webkit-box-shadow,-webkit-filter;
+  position: relative;
+  transition-duration: 0.5s;
+  height: auto;
+  min-height: unset;
+  color: #FFF;
+  background-color: #03a9f4;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("edificio.jpg") ;
+  /*background-image: url(https://intellcob.com/wp-content/uploads/2019/10/foto-edificios-1.jpg);*/
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  }
